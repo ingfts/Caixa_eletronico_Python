@@ -115,6 +115,7 @@ tipo = int(input("\n> Insira o tipo de conta: \n  1-CORRENTE  2-POUPANCA \n"))
 #
 #
 c1 = conta(nome, tipo) 
+c1.set_tipo_conta(tipo)
 c1.menu()
 
 
